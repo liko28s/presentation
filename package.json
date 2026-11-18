@@ -1,0 +1,19 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node check.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "reveal.js": "^6.0.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

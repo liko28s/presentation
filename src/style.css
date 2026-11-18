@@ -1,0 +1,9 @@
+html[lang=en] [lang=es], html[lang=es] [lang=en] { display: none !important; }
+/* ponytail: system fonts, offline-safe; one theme (reveal black), room-readable sizes */
+:root { --r-main-font: system-ui, -apple-system, "Helvetica Neue", sans-serif; --r-heading-font: var(--r-main-font); --r-main-font-size: 52px; }
+.reveal h1 { font-size: 120px; }
+.reveal h2 { font-size: 88px; text-transform: none; }
+.reveal ul { display: block; }
+.reveal code { font-size: 0.9em; }
+.reveal iframe.fig { width: 1440px; height: 810px; border: 0; }
+.reveal p.src { font-size: 30px; opacity: 0.6; margin-top: 40px; }
